@@ -1,17 +1,21 @@
+import { API_URL } from "../servers/configApi"
+import React, {useEffect} from "react";
 
-fetch("http://localhost:3000/peoples", {
+fetch(API_URL, {
     method: 'POST',
     headers: { "Content-Type": "application/json"},
     body: JSON.stringify(newPerson)
 })  
 
-fetch("http://localhost:3000/peoples/${id}", {
+fetch(`${API_URL}${id}`, {
     method: "PUT",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(updatedPerson)
     })
 
 
-fetch("http://localhost:3000/peoples/${id}", {
+fetch(`${API_URL}${id}`, {
         method: 'DELETE'
         })
+
+    
