@@ -13,6 +13,9 @@ O repositório está organizado em duas partes:
 
 Este projeto foi desenvolvido para praticar a criação de um app mobile que realiza um CRUD de pessoas (ex.: `firstName`, `lastName`, `email`, `phone`), consumindo dados a partir de uma API simples baseada em `db.json`.
 
+** Video Do Projeto em Funcionamento
+
+LINK: https://drive.google.com/file/d/1nCZw-EacW8FsvdXUlDIwxdBB8W_YL6ON/view?usp=sharing
 ---
 
 ## Tecnologias utilizadas
